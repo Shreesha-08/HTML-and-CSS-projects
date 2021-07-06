@@ -1,0 +1,180 @@
+body{
+    font-family:'Baloo Tammudu 2', cursive;
+}
+
+.nav{
+    background-color: #51c4d3;
+    color: #d8e3e7;
+    font-family: 'Mate SC', serif;
+}
+
+.navbar-brand{
+    width: 15%;
+    color: #d8e3e7;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.navbar-brand span{
+    margin-left: 5%;
+}
+
+.nav .aligning{
+    margin-left: 50%;
+}
+
+.nav li a{
+    color: #d8e3e7;
+    font-size: 140%;
+}
+
+.navbar-toggler{
+    background-color: #d8e3e7;
+    margin-right: 20px;
+}
+
+.nav-item{
+    margin-right: 2%;
+}
+
+#forPhone li{
+    width: 100%;
+    margin: auto;
+}
+
+.headblock{
+    background-color: #51c4d3;
+    text-align: center;
+    padding: 3rem;
+}
+
+.headblock img{
+    width: 50%;
+}
+
+.headblock h2{
+    font-weight: bold;
+    color: #d8e3e7;
+    padding-top: 3%; 
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.row{
+    padding: 2rem;
+    margin: 0;
+}
+
+.inner-row img{
+    width: 70%;
+}
+
+.row hr{
+    width: 70%;
+    margin: auto;
+    height: 2px;
+    background-color:#126e82;
+}
+
+#outlets{
+    background-color: #51c4d3;
+    padding: 2rem;
+}
+
+#outlets h2{
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: 'Mate SC', serif;
+}
+
+.car-row{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+#contact{
+    padding: 2rem;
+    background-color: #132c33;
+    color: white;
+}
+
+#contact h2{
+    text-align: center;
+}
+
+#contact li a{
+    text-decoration: none;
+    color: white;
+}
+
+#contact li{
+    text-align: center;
+    background-color: #132c33;
+}
+
+#contact a{
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#contact i{
+    font-size: 20px;
+    color: #d8e3e7;
+    margin-top: 2rem;
+}
+
+#contact .col-md-6{
+    text-align: center;
+}
+
+@media (min-width:767px) {
+    .navbar-brand img{
+        width: 25%;
+    }
+}
+
+@media (max-width:767px){
+    .navbar-brand img{
+        width: 0;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        font-size: 3rem;
+    }
+
+    .inner-row{
+        text-align: center;
+    }
+
+    .inner-row .col-sm-6{
+        margin: 2rem auto;
+    }
+
+    .inner-row p{
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .headblock img{
+        margin-bottom: 5%;
+    }
+
+    #contact h3{
+        margin-top: 30px;
+    }
+
+    #outlets img{
+        margin-bottom: 25px;
+    }
+
+}
+
